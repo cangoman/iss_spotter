@@ -33,7 +33,6 @@ nextISSTimesForMyLocation( (error, passTimes) => {
   printPassTimes(passTimes);
 });
 
-
 const printPassTimes = function(passTimes) {
   for (let time of passTimes) {
     let datetime = new Date(0);
